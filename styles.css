@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    /* padding: 0px; */
+}
+html {
+    background-color: #b3ffff;
+    text-align:center;
+    position: relative;
+   
+}
+#page-container{
+    display:flex;
+    /* border: 1px solid red; */
+    width:100%;
+    height:100%;
+    flex-direction: row;
+}
+#container {
+    position: relative;
+    top: 70px;
+    padding-top: 20px;
+  width: 50%;
+  
+  border-right: 3px solid red;
+  
+   
+}
+#display-container{
+    position: relative;
+    width: 47%;
+    right: 6px;
+    /* border-left: 3px solid blue; */
+}
+.vertical-line{
+    border-left: 3px solid blue;
+    height: 450px;
+    position: relative;
+   left: 50%;
+}
+#heading{
+    margin: 10px 0px;
+    border: black 1px solid;
+    background-color: #46D7AC;
+    color: antiquewhite;
+   
+}
+#entry{
+    border-radius: 8px;
+    width: 120px;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: #001a66;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+.input {
+    /* border: 1px red solid; */
+   
+    font-size: 35px;
+    font-weight: 700;
+    font-family: cursive;
+    color: #004d00;
+}
+#display{
+    width: 95%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    border: lightblue solid 2px;
+    background-color: burlywood;
+    color: #004d00;
+   /* font-weight: 500; */
+}
+input {
+    padding: 10px;
+}
+th, td, table{
+    
+    border: blue solid 2px;
+    padding: 5px;
+    font-size: 25px;
+    margin: 10px;
+}
+td {
+    font-size: 20px;
+    color: crimson;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#display-heading{
+    margin-top: 10px;
+    font-family: sans-serif;
+}
